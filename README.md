@@ -15,3 +15,6 @@
 #### ~ is means home directory
 ## Module 3
 #### cat prints the contents of one or more files
+#### ls shows possible arguments
+#### touch creates an empty file
+#### rm deletes a file
