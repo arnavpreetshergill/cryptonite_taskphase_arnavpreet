@@ -1,2 +1,3 @@
 # cryptonite_taskphase_arnavpreet
-## TP for Arnavpreet 
+## Getting Started [DOJO]
+### All the instructions are given, not much trial and error required. 
