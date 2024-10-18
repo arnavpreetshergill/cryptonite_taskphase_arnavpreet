@@ -14,3 +14,4 @@
 #### a relative path is a path based on your relative position or your cwd (current working directory)
 #### ~ is means home directory
 ## Module 3
+#### cat prints the contents of one or more files
