@@ -6,4 +6,6 @@
 #### . / to run
 #### sudo to bypass permision 
 ## Linux Linarium [DOJO]
+### Module 1
 #### whoami returns username
+#### echo returns whatever is typed after it
