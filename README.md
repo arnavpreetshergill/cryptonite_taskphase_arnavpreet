@@ -9,3 +9,5 @@
 ### Module 1
 #### whoami returns username
 #### echo returns whatever is typed after it
+### Module 2
+#### an absolute path is the precise postion of a file in a workspace. it usually begins with a '/' which denotes a root.
