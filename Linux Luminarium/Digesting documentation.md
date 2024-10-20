@@ -128,3 +128,20 @@ The secret value is: 28
 hacker@man~helpful-programs:~$ /challenge/challenge -g 28
 Correct usage! Your flag: pwn.college{spdI0swT2J8UoY1LUu-MGIcQe1A.ddjM4QDL3EDN3czW}
 ```
+## Help for Builtins 
+```
+hacker@man~help-for-builtins:~$ help challenge
+challenge: challenge [--fortune] [--version] [--secret SECRET]
+    This builtin command will read you the flag, given the right arguments!
+    
+    Options:
+      --fortune         display a fortune
+      --version         display the version
+      --secret VALUE    prints the flag, if VALUE is correct
+
+    You must be sure to provide the right value to --secret. That value
+    is "4apCIT8n".
+hacker@man~help-for-builtins:~$ challenge --secret 4apCIT8n
+Correct! Here is your flag!
+pwn.college{4apCIT8naaDC-64zzTWApHNxkrh.dRTM5QDL3EDN3czW}
+```
