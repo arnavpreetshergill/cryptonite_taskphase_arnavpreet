@@ -51,3 +51,16 @@ pwn.college                                                                     
 hacker@man~reading-manuals:~$ /challenge/challenge --fhhtby 534
 Correct usage! Your flag: pwn.college{Af5hY3htb4Gy1SdZh1uBoT9mTkm.dRTM4QDL3EDN3czW}
 ```
+## Searching manuals
+#### '/' can be used to search manuals, and '?' can be used to search manuals backwards
+#### n to move to next occurance and N to move backwards
+#### for this challenge, just run the command
+```
+man challenge
+```
+#### this returns the manual which has a lot of useless arguments. just search for 'flag' which will give us the corrent argument whhich is '--rre'
+```
+hacker@man~searching-manuals:~$ /challenge/challenge --rre
+Initializing...
+Correct usage! Your flag: pwn.college{waXqLQtrff9yWNnqjlv_KL9ZzXq.dVTM4QDL3EDN3czW}
+```
