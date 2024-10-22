@@ -1,4 +1,4 @@
-# MAtching with * 
+# Matching with * 
 #### When * is used in a command, the system treats it as a ""wild card" or a "blank" and returns whatever file or program fits this "blank"
 ## Solution: 
 ```
