@@ -17,3 +17,28 @@ You ran me with the working directory of /challenge! Here is your flag:
 pwn.college{8tpofdJ9JcZ8jTWLCAXziaonS5f.dJjM4QDL3EDN3czW}
 ```
 # Matching with []
+#### [] will only return the files that match the characters enclosed within the braces.
+## Solution:
+```
+hacker@globbing~matching-with-:~$ cd /challenge/files
+hacker@globbing~matching-with-:/challenge/files$ /challenge/run file_[bash]
+You got it! Here is your flag!
+pwn.college{wjrmi6zkpPfHRjXoAKtN58b50No.dNjM4QDL3EDN3czW}
+```
+# Matching paths with []
+#### globbing using [] also works for absolute paths
+## Solution: 
+```
+hacker@globbing~matching-paths-with-:~$ /challenge/run /challenge/files/file_[bash]
+You got it! Here is your flag!
+pwn.college{0ZfHQmSYXMOIT5_eQCWTlUUpqwg.dRjM4QDL3EDN3czW}
+```
+# Mixed Globbing
+#### Since we know the starting letter of each word, we can use a [] and then * to narrow down to the required files 
+## Solution: 
+```
+hacker@globbing~mixing-globs:~$ cd /challenge/files
+hacker@globbing~mixing-globs:/challenge/files$ /challenge/run [cep]*
+You got it! Here is your flag!
+pwn.college{InUy2ELbTOy3SjrNqnc66N7kM3H.dVjM4QDL3EDN3czW}
+```
