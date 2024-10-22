@@ -42,3 +42,12 @@ hacker@globbing~mixing-globs:/challenge/files$ /challenge/run [cep]*
 You got it! Here is your flag!
 pwn.college{InUy2ELbTOy3SjrNqnc66N7kM3H.dVjM4QDL3EDN3czW}
 ```
+# Exclusionary Globbing
+#### ! or ^ can be used as the first character in [] to exclude the proceeding characters from the glob
+## Solution: 
+```
+hacker@globbing~exclusionary-globbing:~$ cd /challenge/files
+'hacker@globbing~exclusionary-globbing:/challenge/files$ /challenge/run [!pwn]*
+You got it! Here is your flag!
+pwn.college{4iZRNvTtPrxjeZdRIuGSjqH36KB.dZjM4QDL3EDN3czW}
+```
